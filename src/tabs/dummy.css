@@ -1,0 +1,24 @@
+
+.bordered-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.bordered-table th, .bordered-table td {
+    border: 1px solid #ececf1;
+    padding: 8px;
+    text-align: left;
+}
+
+.highlighted-row {
+    background-color: #202123;
+    color: #ececf1;
+}
+
+.bordered-table tbody tr:nth-child(even) {
+    background-color: #444654;
+}
+
+.bordered-table tbody tr:nth-child(odd) {
+    background-color: #575969;
+}

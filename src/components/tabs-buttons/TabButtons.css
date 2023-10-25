@@ -1,0 +1,35 @@
+.buttons {
+    margin-left: 10px;
+    background-color: #444654;
+    color: white;
+    border: 1px solid #ececf1;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px 5px 1px 1px;
+}
+
+.buttons:hover {
+    background-color: #202123;
+    border-bottom: 0;
+}
+
+.active-button {
+    background-color: #ececf1;
+    color: #444654;
+    border-top: 1px solid #444654;
+    border-left: 1px solid #444654;
+    border-right: 1px solid #444654;
+    border-radius: 5px 5px 1px 1px;
+}
+
+.active-button:hover {
+    background-color: #444654;
+    color: #ececf1;
+    border-top: 1px solid #ececf1;
+    border-left: 1px solid #ececf1;
+    border-right: 1px solid #ececf1;
+    border-bottom: 0;
+}
+
+
